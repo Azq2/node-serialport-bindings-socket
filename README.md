@@ -11,7 +11,7 @@ yarn add serialport-bindings-socket
 pnpm add serialport-bindings-socket
 ```
 
-# EXAMPLES  ```
+# EXAMPLES
 1. Open tcp client port:
     
     The browser will show pop-up with all available ports.
