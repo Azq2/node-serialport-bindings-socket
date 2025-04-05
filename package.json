@@ -1,7 +1,7 @@
 {
-	"name": "serialport-bindings-webserial",
+	"name": "serialport-bindings-socket",
 	"version": "1.0.0",
-	"description": "WebSerial bindings for serialport.",
+	"description": "Socket bindings for serialport.",
 	"type": "module",
 	"main": "dist/src/index.js",
 	"types": "dist/src/index.d.ts",
@@ -16,7 +16,7 @@
 	"author": "kirill.zhumarin@gmail.com",
 	"license": "MIT",
 	"repository": {
-		"url": "git+https://github.com/Azq2/node-serialport-bindings-webserial.git"
+		"url": "git+https://github.com/Azq2/node-serialport-bindings-socket.git"
 	},
 	"devDependencies": {
 		"@serialport/bindings-interface": "^1.2.2",

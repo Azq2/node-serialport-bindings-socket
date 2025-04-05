@@ -1,6 +1,6 @@
 # SUMMARY
 
-[![NPM Version](https://img.shields.io/npm/v/serialport-bindings-webserial)](https://www.npmjs.com/package/serialport-bindings-webserial)
+[![NPM Version](https://img.shields.io/npm/v/serialport-bindings-socket)](https://www.npmjs.com/package/serialport-bindings-socket)
 
 NodeJS sockets bindings for [serialport](https://www.npmjs.com/package/serialport) module.
 
@@ -16,7 +16,7 @@ pnpm add serialport-bindings-socket
     
     The browser will show pop-up with all available ports.
     ```js
-    import { SocketBinding, SocketBindingInterface } from 'serialport-bindings-webserial';
+    import { SocketBinding, SocketBindingInterface } from 'serialport-bindings-socket';
     import { SerialPortStream } from '@serialport/stream';
     
     const port = new SerialPortStream<SocketBindingInterface>({
@@ -29,7 +29,7 @@ pnpm add serialport-bindings-socket
 
    The browser will show pop-up with all available ports.
     ```js
-    import { SocketBinding, SocketBindingInterface } from 'serialport-bindings-webserial';
+    import { SocketBinding, SocketBindingInterface } from 'serialport-bindings-socket';
     import { SerialPortStream } from '@serialport/stream';
     
     const port = new SerialPortStream<SocketBindingInterface>({
