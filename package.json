@@ -4,9 +4,10 @@
 	"description": "Socket bindings for serialport.",
 	"type": "module",
 	"main": "dist/src/index.js",
-	"types": "dist/src/index.d.ts",
+	"types": "src/types.d.ts",
 	"files": [
-		"./dist/*"
+		"dist/*",
+		"src/types.d.ts"
 	],
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
@@ -21,14 +22,9 @@
 	"devDependencies": {
 		"@serialport/bindings-interface": "^1.2.2",
 		"@serialport/stream": "^13.0.0",
-		"@tsconfig/node18": "^18.2.4",
-		"@types/node": "^20.12.7",
-		"typescript": "^5.8.2"
+		"@tsconfig/node18": "^18.2.6",
+		"@types/node": "^20.19.37",
+		"typescript": "^5.9.3"
 	},
-	"packageManager": "pnpm@10.6.3+sha512.bb45e34d50a9a76e858a95837301bfb6bd6d35aea2c5d52094fa497a467c43f5c440103ce2511e9e0a2f89c3d6071baac3358fc68ac6fb75e2ceb3d2736065e6",
-	"pnpm": {
-		"patchedDependencies": {
-			"@serialport/bindings-interface": "patches/@serialport__bindings-interface.patch"
-		}
-	}
+	"packageManager": "pnpm@11.0.0-dev.1005+sha512.91f84a392eea348ea4852a182912d2520273a4336f933b78cc44bc931eb999923c097e9433a9b355adc1f725725ea99082fc9f032a559df832632e764c92c798"
 }
